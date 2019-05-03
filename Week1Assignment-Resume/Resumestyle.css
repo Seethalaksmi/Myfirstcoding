@@ -42,17 +42,22 @@ html {
   
   }
   
-  p{
-    text-align: justify;
-  }
-  
+
   a:hover {
   
     text-decoration: underline;
   
   }
   
+
   
+  p{
+
+    text-align: justify;
+
+  }
+  
+
   
   .container {
   
@@ -170,8 +175,7 @@ html {
   }
   
 
-  
-  
+    
   .org-title-container {
   
     display: flex;
