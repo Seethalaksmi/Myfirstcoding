@@ -18,7 +18,7 @@ html {
   
     line-height: 1.5;
   
-    background: lightpink;
+    background: black;
   
     color: #323232;
   
@@ -165,18 +165,11 @@ html {
   
     margin-bottom: 24px;
   
-    border-bottom: 1px solid lightgray;
-  
-  }
-  
-
-
-  .organisation:last-child {
-  
     border-bottom: none;
   
   }
   
+
   
   
   .org-title-container {
