@@ -1,0 +1,82 @@
+body{
+  background-color: #FFB6C1;
+  margin: 0 0 30px 0;
+  padding: 30px;
+  color:black;
+}
+#title{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-family: monospace, Arial;
+  font-size: 70px;
+  margin-bottom: 0px;
+  background-color: rgba(45, 45, 45, 0.1);
+  padding:10px;
+text-transform:uppercase;
+}
+h2{
+  text-align: center;
+  font-family: monospace, Arial;
+  font-size: 30px;
+  margin:0 auto 10px auto;
+}
+p{
+  text-align: center;
+  font-family: monospace, Arial;
+  font-size: 30px;
+ }
+ul{
+  margin: auto;
+  max-width: 500px;
+}
+li{
+  font-family: monospace, Arial;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+#main{
+  background-color:#FFB6C1;
+  padding:10px;
+}
+#img-div{
+  background-color: rgb(255,255,255);
+  border-radius: 5px;
+  margin:40px auto 60px auto;
+  width:60%;
+  background-color: #FFB6C1;
+}
+figure{
+  margin:auto;
+  padding:5px;
+  width:90%;
+  background-color: #FFB6C1;
+  
+}
+#image{
+  display: block;
+  margin: 40px auto 20px auto;
+  max-width: 100%;
+  background-color: #FFB6C1;
+}
+figcaption{
+  font-family: sans-serif, Arial;
+  font-size:20px;
+  margin-bottom:20px;
+}
+figcaption:hover{
+  color: blue;
+}
+/*** Benefits of coffee ***/
+#tribute-info{
+  margin-bottom: 20px;  
+}
+#tribute-link{
+  text-decoration: none;
+}
+/* responsive to all widths 400px and less */
+@media(max-width:400px){
+  
+}
