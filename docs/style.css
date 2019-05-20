@@ -1,0 +1,15 @@
+html {
+
+    display:block;
+    background-color: rgb(88, 133, 74);
+    margin:10px;
+
+    }
+
+    h1{
+        font-size: 60px;
+        font-style: oblique;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        color:greenyellow;
+    }
