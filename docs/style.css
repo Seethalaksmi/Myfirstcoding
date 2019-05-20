@@ -13,3 +13,23 @@ html {
         text-align: center;
         color:greenyellow;
     }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        padding: 5px;
+        text-align: left;
+      }
+
+      table{
+          width:40%;        
+      }
+      caption{
+          font-style: bold;
+        text-align:left;
+        font-size: 40px;
+        color:purple;
+        }
