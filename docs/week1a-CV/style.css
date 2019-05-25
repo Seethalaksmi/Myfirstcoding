@@ -1,0 +1,271 @@
+
+
+body{
+    margin:0;
+    font-weight: 300;
+    
+       
+}
+*, *::before, *after{
+    box-sizing: border-box;
+}
+ header{
+    background:#111111;
+    height:7em;
+    width:100%;
+    position: fixed;
+    z-index:999;   
+   
+    box-shadow: 0 0 0 5px rgb(72, 199, 13);
+}
+
+header h1{
+    bottom: 0; 
+    display: table-cell;
+    vertical-align: bottom;
+    color: #43e5eb;
+  
+}
+header::after{
+        content:"";
+        display:table;
+        clear: both;
+}
+
+ul li {
+    list-style: none;
+    
+     
+}
+
+nav .active a{
+    background-color: #43e5eb;
+    color:black;
+}
+ 
+header ul{
+   position: relative;
+    float:right;
+    margin:0;
+    padding:0;    
+   justify-content: last baseline;
+   position: absolute; bottom: 0; right: 0;
+}
+
+nav li{
+       display:inline-block;
+       margin-left:0.3em; 
+       padding:.1em;  
+       
+    }
+    
+     
+nav a{
+    color:#444;
+    text-decoration: none;
+    font-style: normal;
+    font-size:1em;
+    text-transform: uppercase;   
+    color:#43e5eb;
+    font-weight: bold;
+}
+
+img {
+
+    margin-top:8em;
+        width: 80%;
+        margin-bottom:1em;
+           }
+#sidebar {
+    width: 9em;
+   height: 100%;
+   position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #43e5eb;
+    overflow-x: hidden;
+
+  }
+ 
+ #sidebar a {
+    
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    float:none;
+  }
+   
+  #sidebar a:nth-child(n+2){
+      padding:0.1em;
+      margin-left:.5em;
+  }
+
+ #sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+#main-content {
+   margin-left:5em;
+   padding:6em 2em 3em  4.7em;
+   width:auto; 
+}
+   
+.nav-view   {
+    margin-top:2em;
+    margin-right: 0; 
+  }
+  p{
+      text-align: justify;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    z-index:999;   
+   /* border:groove;*/
+    box-shadow: 0 0 0 5px rgb(72, 199, 13);
+    
+    
+    }
+ footer p{
+     font-size: 1em;
+     color:#43e5eb;
+     text-align: center;
+  
+ }
+  
+   
+ .organisation {
+    margin-top:10em;
+    margin-left:5em;
+    padding:0 1em 1em 1em;
+    margin-bottom: 5em;
+    margin-right:5em;
+    border-bottom: 1px solid lightgrey;
+    width:auto;
+    
+  
+  }
+  
+  .organisation:last-child{
+    border-bottom: none;
+  }
+    
+  .org-title-container {
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    margin-bottom: 20px;
+  
+    font-size: 120%;
+    width:auto;
+  
+  }
+  
+  
+  
+  .org-company {
+  
+    font-weight: bold;
+  
+    line-height: 1.2;
+  
+  }
+  
+  .org-title-container {
+
+    flex-direction: column;
+  
+  }
+  
+  
+  .date{
+    font-weight: bold;
+    color: gray;
+    font-size: 18   px;
+  }
+  
+/** Skills **/
+    
+.skills-container{
+    margin-top:6em;
+    margin-right:2em;
+
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr;
+  
+    grid-gap: 2%;
+  
+    margin-bottom: 1rem;
+  }
+
+ .interest-container{
+    align-content: center;
+    margin-top:8em;
+    margin-left:5em;
+    background-color: #43e5eb;
+    width:40%;
+    padding:2em;
+    
+}
+.interest-container, li{
+    padding: 2em 1em 1em 0;
+}
+   .skills-container, ul {
+  
+    margin-left: .5%;
+    font-size: 18px;
+    list-style-type: disc;
+  
+  }
+  
+@media only screen and (min-width : 768px) {
+
+  
+    .container section{
+         grid-template-columns: 1fr 5fr;
+       }
+       .org-title-container {
+
+        flex-direction: row;
+    
+      }
+      
+      
+ .skills-container {
+    margin:10em 10em 10em 10em;
+    justify-content: center;
+    grid-template-columns: 1fr  1fr 1fr;
+    grid-gap: 2%;
+    margin-bottom: 1rem;
+}
+
+.interest-container{
+   
+    margin-left:20em;
+    margin-top:15em;
+    grid-template-columns: 1fr;
+    
+    width:20%;
+    padding:2em;
+}
+.skills-container, .interest-container li {
+  
+  padding: 2em 1em 1em 0;
+  
+  }
+  .skills-container, .interest-container ul label{
+      font-style: oblique;
+      font-size: 150%;
+  }
+    }
+    
